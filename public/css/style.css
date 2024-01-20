@@ -1,0 +1,28 @@
+
+body{
+    box-sizing: border-box;
+}
+main{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    border: 1px solid black;
+    width: 165px;
+    background-color: aqua;
+    height: 165px;
+}
+.cross{
+    background: url("../images/cross.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zero{
+    background: url("../images/zero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
